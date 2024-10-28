@@ -1,0 +1,25 @@
+Welcome to my profile!
+
+Name: Jane Doe
+Occupation: Software Engineering Student
+Interests:
+- Coding
+- Web Development
+- Machine Learning
+- Open Source Projects
+
+Skills:
+- Python
+- HTML/CSS
+- JavaScript
+- Git/GitHub
+
+Goals:
+To build innovative projects that solve real-world problems and contribute to the tech community.
+
+Contact:
+Email: janedoe@example.com
+GitHub: github.com/janedoe
+LinkedIn: linkedin.com/in/janedoe
+
+End of file.
