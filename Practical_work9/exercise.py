@@ -10,27 +10,19 @@ def bfs_shortest_path(graph, start, goal):
     queue = deque([[start]])
     
     while queue:
-        # Get the first path from the queue
         path = queue.popleft()
         
-        # Get the last node from the path
         node = path[-1]
-        
-        # Check if the node is the goal
+ 
         if node == goal:
             return path
-        
-        # If the node is not visited
+
         elif node not in visited:
-            # Mark the node as visited
             visited.add(node)
             
-            # Get the neighbors of the node
             for neighbor in graph.get(node, []):
-                # Create a new path
                 new_path = list(path)
                 new_path.append(neighbor)
-                # Add the new path to the queue
                 queue.append(new_path)
   
     return None
@@ -82,7 +74,7 @@ graph_directed = {
     'E': []
 }
 
-print(detect_cycle_directed(graph_directed))  # Output: True (Cycle: C -> E -> D -> C)
+print(detect_cycle_directed(graph_directed))  
 
 #3.Implement Dijkstra's algorithm to find the shortest path in a weighted graph.
 
@@ -159,4 +151,4 @@ graph = {
     'D': ['B', 'C']
 }
 
-print(is_bipartite(graph))  # Output: True
+print(is_bipartite(graph)) 

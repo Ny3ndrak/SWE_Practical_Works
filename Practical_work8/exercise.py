@@ -125,7 +125,6 @@ def bubble_sort_visual(arr, callback):
         if not swapped:
             break
 
-# Generate random array
 arr = [random.randint(1, 100) for _ in range(20)]
 
 plot_sorting_algorithm(bubble_sort_visual, arr, "Bubble Sort")
